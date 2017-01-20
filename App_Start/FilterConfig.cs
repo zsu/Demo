@@ -1,4 +1,4 @@
-﻿using SessionMessages;
+﻿using SessionMessages.Mvc;
 using System.Web;
 using System.Web.Mvc;
 
