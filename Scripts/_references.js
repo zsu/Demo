@@ -10,4 +10,5 @@
 /// <reference path="jstz.min.js" />
 /// <reference path="modernizr-2.6.2.js" />
 /// <reference path="respond.js" />
+/// <reference path="sessionmessage.min.js" />
 /// <reference path="toastr.min.js" />
