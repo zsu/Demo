@@ -36,6 +36,7 @@ namespace Demo.Controllers
 			SessionMessageManager.SetMessage(vm.Type, vm.Behaviors, vm.Message);
 			return View(vm);
 		}
+        [HttpPost]
         public ActionResult AjaxMessage(SessionMessageViewModel vm)
         {
             SessionMessageManager.SetMessage(vm.Type,vm.Behaviors,vm.Message);

@@ -83,7 +83,7 @@
                 var data = {Message: $("textarea#tbMessage").val(), Type: MessageType[$('input[name=Type]:checked').val()], Behaviors: MessageBehaviors[$('input[name=Behaviors]:checked').val()]}
                 $.ajax({
                     url: '@Url.Action("AjaxMessage","Home")',
-                    method: "get",
+                    method: "post",
                     dataType: "html",
                     contentType: 'application/json; charset=UTF-8',
                     data: JSON.stringify(data),
