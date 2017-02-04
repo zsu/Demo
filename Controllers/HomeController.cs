@@ -36,6 +36,11 @@ namespace Demo.Controllers
 			SessionMessageManager.SetMessage(vm.Type, vm.Behaviors, vm.Message);
 			return View(vm);
 		}
+        public ActionResult AjaxMessage(SessionMessageViewModel vm)
+        {
+            SessionMessageManager.SetMessage(vm.Type,vm.Behaviors,vm.Message);
+            return View("Index");
+        }
 	}
 	public class SessionMessageViewModel
 	{
